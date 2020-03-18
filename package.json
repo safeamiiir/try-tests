@@ -5,20 +5,13 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack app.js --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/safeamiiir/try-tests.git"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/safeamiiir/try-tests/issues"
-  },
-  "homepage": "https://github.com/safeamiiir/try-tests#readme",
   "dependencies": {
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "jest": "^24.9.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   }
 }

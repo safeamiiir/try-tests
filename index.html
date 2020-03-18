@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 
-<html>
-    <head>
-        <title> Testing Project</title>
-    </head>
-    <body>
+<head>
+    <link rel="stylesheet" href="./styles/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Testing</title>
+</head>
 
-        <script src="./dist/main.js"></script>
-    </body>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Add Product</h1>
+        </div>
+    </div>
+    <div class="container main">
+        <div>
+            <input type="text" id="title" placeholder="Title...">
+        </div>
+        <div>
+            <input type="text" id="price" placeholder="Price...">
+        </div>
+        <button id="add-product">Add</button>
+    </div>
+    <div class="products">
+        <ul></ul>
+    </div>
+    <script src="dist/main.js"></script>
+</body>
+
 </html>
